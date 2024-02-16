@@ -1,0 +1,96 @@
+
+.container{
+    margin-top: 5%;
+}
+.container{
+    background-color: lightyellow;
+    border-radius: 6px;
+    width: 250vh;
+    height: 55vh;
+    
+}
+.container-fluid{
+    background-color: lightyellow;
+    
+}
+.container .papa{
+    color:black;
+    font-size: 60px;
+}
+.papadon{
+    display: block;
+    margin: auto;
+    background-color:  lightyellow;
+   font-weight: bolder;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.5s;
+    margin-top: 7%;
+}
+.papadon:hover{
+    background: #ff004f;
+}
+
+.card-header{
+    background-color: lightseagreen;
+
+}
+.col{
+    transition: background 0.5s;
+
+}
+.col:hover{
+    background:  linear-gradient(45deg, orange, lightblue
+    ) ; 
+    
+    transform:scaleX(1)scaleY(1.04);
+    opacity: 0.8;
+    
+}
+.card{
+    margin-top: 13%;
+}
+* h1{
+    font-size: 4rem;
+    background: lightseagreen ;
+   
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+
+}
+@media only screen and (max-width:700px){
+    .don{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        
+       
+
+    }
+    .h1{
+         width: 100%;
+        height: 100%; 
+    }
+    .nav.navbar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%; 
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+    }
+}
+
